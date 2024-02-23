@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import cx from "classnames";
 import { Source_Code_Pro } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 
 const sourceCodePro = Source_Code_Pro({ subsets: ["latin"] });
@@ -22,6 +23,9 @@ export default function RootLayout({
             >
                 {children}
             </body>
+            <GoogleAnalytics
+                gaId={`${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
+            />
         </html>
     );
 }
