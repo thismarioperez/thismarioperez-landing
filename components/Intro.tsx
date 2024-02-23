@@ -10,7 +10,7 @@ export default function Intro() {
                             <p>Hi!</p>
                             <p>
                                 I{"'"}m Mario, a software developer based out of
-                                Chatanooga, TN.
+                                Chattanooga, TN.
                             </p>
                             <p>Pardon my dust while I build out my new site.</p>
                             <p>Until then, here{"'"}s how you can reach me:</p>
