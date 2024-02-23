@@ -9,11 +9,11 @@ export default function Intro() {
                         <div className="relative p-4 text-shadow shadow-black text-left">
                             <p>Hi!</p>
                             <p>
-                                I'm Mario, a software developer based out of
+                                I{"'"}m Mario, a software developer based out of
                                 Chatanooga, TN.
                             </p>
                             <p>Pardon my dust while I build out my new site.</p>
-                            <p>Until then, here's how you can reach me:</p>
+                            <p>Until then, here{"'"}s how you can reach me:</p>
                         </div>
                         <div className="relative p-4">
                             <ul className="flex row gap-3 justify-center items-center w-full flex-wrap">
